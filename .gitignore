@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Raw/intermediate data: downloaded/rebuilt by scripts
+data/raw/*
+!data/raw/.gitkeep
+data/interim/*
+!data/interim/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Generated outputs (headline artefacts committed selectively)
+outputs/model_objects/*
+!outputs/model_objects/.gitkeep
+
+# Foundation-model caches / weights
+.cache/
+huggingface/
+*.bin
+*.safetensors

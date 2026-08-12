@@ -1,0 +1,13 @@
+model,family,MAE,RMSE,MASE,sMAPE,Bias
+Chronos zero-shot,foundation,33.58,67.53,0.629,26.01,-18.05
+HGB Regime B,machine_learning_conditional,36.55,61.51,0.685,30.55,3.0
+SARIMA,statistical,37.06,64.08,0.695,30.18,-3.15
+SARIMAX weather,statistical,38.33,64.24,0.718,32.77,-3.32
+Random Forest,machine_learning,39.37,64.06,0.738,31.7,2.22
+SARIMAX calendar,statistical,39.66,63.53,0.743,33.62,3.07
+Histogram Gradient Boosting,machine_learning,40.03,65.8,0.75,32.53,0.73
+Weekly seasonal naive,benchmark,42.92,79.67,0.804,32.67,-12.62
+Daily seasonal naive,benchmark,48.39,85.79,0.907,35.57,1.67
+Mean,benchmark,50.01,73.99,0.937,46.24,-3.06
+Naive,benchmark,143.38,170.62,2.687,87.07,114.67
+Drift,benchmark,143.94,171.26,2.698,87.23,115.31
